@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name.host</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/html.css">
+    <link rel="stylesheet" href="./styles/key.css">
+    <script src="./script/main.js" defer></script>
+    <script src="./script/function.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="items-head">
+            <p id="favor-header">Услуги</p>
+            <h3>Name.host</h3>
+            <p id="support-header">Поддержка</p>
+        </div>
+    </header>
+
+    <!-- Основные карточки -->
+
+    <div class="container">
+        <div class="hello-card">
+            <h1><span id="typewriter"></span><span class="cursor-big"></span>хостер VPS</h1>
+            <h1>— Name.host</h1>
+            <p>Виртуальные сервера на процессорах</p>
+            <p>AMD Ryzen 9 7950X</p>
+            <img src="./assets/cloud.png">
+        </div>
+        <div class="column">
+            <div class="login-card" id="login">
+                <h2>Войти в личный кабинет</h2>
+                <cite>Дом, милый дом</cite>
+                <img src="./assets/close.png" id="door">
+            </div>
+            <div class="uptime-card" id="uptime">
+                <h2>Uptime 99.9 %</h2>
+                <cite>Посмотреть статистику</cite>
+                <img src="./assets/webB.png" id="web">
+            </div>
+        </div>
+    </div>
+
+    <!-- блок 2 -->
+
+    <div class="prem">
+        <div class="prem-text">
+            <h2>Каким должен быть нормальный хостинг?<span class="cursor"></span></h2>
+            <div class="info-block">
+                <div class="info-item">
+                    <img src="./assets/money.png">
+                    <h4>Дешёвым</h4>
+                    <p>Минимальные тарифы без скрытых платежей.</p>
+                </div>
+                <div class="info-item">
+                    <img src="./assets/shield.png">
+                    <h4>Надёжным</h4>
+                    <p>Uptime 99.9% и круглосуточная поддержка.</p>
+                </div>
+                <div class="info-item">
+                    <img src="./assets/heart.png">
+                    <h4>Простым</h4>
+                    <p>Всё просто и понятно. Если возникнут вопросы — обращайтесь к нам, мы поможем!</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/questionmark.png">
+    </div>
+
+    <!-- блок 3/тарифы -->
+
+    <div class="your-server" id="tariffs">
+        <h2>Начните создавать прямо сейчас<span class="cursor"></span></h2>
+        <p><span class="indicator"></span>200+ серверов уже создано, давайте подберём тариф под ваши идеи</p>
+    </div>
+    <!-- 6 плашек с тарифами -->
+    <div class="tariffs">
+        <div class="pane">
+            <h2>MICRO</h2>
+            <p>1 vCPU x 2.90 GHz</p>
+            <p>1 GB DDR5</p>
+            <p>30 GB NVMe SSD</p>
+            <p>100 Мбит/сек. <strong>(fair-share)</strong></p>
+            <p>Локация: <strong>🇩🇪 FS-1</strong></p>
+            <h2>150₽</h2>
+            <div class="button">
+                <p>Заказать</p>
+            </div>
+        </div>
+        <div class="pane">
+            <h2>MINI</h2>
+            <p>1 vCPU x 2.90 GHz</p>
+            <p>2 GB DDR5</p>
+            <p>60 GB NVMe SSD</p>
+            <p>1 Гбит/сек. <strong>(fair-share)</strong></p>
+            <p>Локация: <strong>🇩🇪 FS-1</strong></p>
+            <h2>250₽</h2>
+            <div class="button">
+                <p>Заказать</p>
+            </div>
+        </div>
+        <div class="pane">
+            <h2>START</h2>
+            <p>2 vCPU x 2.90 GHz</p>
+            <p>4 GB DDR5</p>
+            <p>90 GB NVMe SSD</p>
+            <p>1 Гбит/сек. <strong>(fair-share)</strong></p>
+            <p>Локация: <strong>🇩🇪 FS-1</strong></p>
+            <h2>450₽</h2>
+            <div class="button">
+                <p>Заказать</p>
+            </div>
+        </div>
+        <div class="pane">
+            <h2>BASE</h2>
+            <p>4 vCPU x 2.90 GHz</p>
+            <p>6 GB DDR5</p>
+            <p>120 GB NVMe SSD</p>
+            <p>1 Гбит/сек. <strong>(fair-share)</strong></p>
+            <p>Локация: <strong>🇩🇪 FS-1</strong></p>
+            <h2>650₽</h2>
+            <div class="button">
+                <p>Заказать</p>
+            </div>
+        </div>
+        <div class="pane">
+            <h2>BUISNESS</h2>
+            <p>8 vCPU x 2.90 GHz</p>
+            <p>12 GB DDR5</p>
+            <p>150 GB NVMe SSD</p>
+            <p>1 Гбит/сек. <strong>(fair-share)</strong></p>
+            <p>Локация: <strong>🇵🇱 WS-1</strong></p>
+            <h2>850₽</h2>
+            <div class="button">
+                <p>Заказать</p>
+            </div>
+        </div>
+        <div class="pane">
+            <h2>DEVELOPER</h2>
+            <p><img src="assets/cpu.png" alt="CPU"> 12 vCPU x 2.90 GHz</p>
+            <p><img src="assets/ram.png" alt="RAM">16 GB DDR5</p>
+            <p><img src="assets/hdd.png" alt="Storage">240 GB NVMe SSD</p>
+            <p><img src="assets/servers.png" alt="Network">5 Гбит/сек. <strong>(fair-share)</strong></p>
+            <p>Локация: <strong>🇵🇱 WS-1</strong></p>
+            <h2>1 150₽</h2>
+            <div class="button">
+                <p>Заказать</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- мой любимый блок f.a.q. -->
+
+    <div class="faq-block" id="support">
+        <h2>Появилсь вопросы?</h2>
+        <p>Не стесняйтесь! Задайте их нам, а наша поддержка поможет вам очень быстро</p>
+        <div class="support-button"><p>Написать</p></div>
+    </div>
+
+    <footer>
+        <div class="footer-text">
+            <div class="footer-left">
+                <h2>Name.host</h2>
+                <p>2025</p>
+                <h4 id="copyright">Проект сделан kripo4</h4>
+            </div>
+            <div class="footer-right">
+                <span id="favor-footer">Услуги</span>
+                <span id="policy">Политика конфиденциальности</span>
+                <span id="usage">Условия использования</span>
+                <h3>admin@name.host</h3>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
